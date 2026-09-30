@@ -5,7 +5,6 @@
 Queue Nuke scripts, send Write nodes straight from Nuke, and render them one after another (or several at once) on your own workstation, with automatic resume, crash recovery and a live frame preview. No render farm needed.
 
 ![Batch Gartner screenshot](docs/screenshot.png)
-<!-- Add a screenshot at docs/screenshot.png -->
 
 ---
 
