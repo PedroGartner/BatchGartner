@@ -86,7 +86,7 @@ Developed and tested mainly on **Windows**. macOS and Linux are supported by the
 1. **Download or clone** this repository and keep the folder somewhere permanent.
 
    ```bash
-   git clone https://github.com/<your-user>/batch-gartner.git
+   git clone https://github.com/PedroGartner/batch-gartner.git
    ```
 
 2. **Install the Python packages** with the Python you will use to run Batch Gartner:
