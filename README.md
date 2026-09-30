@@ -217,19 +217,8 @@ Free RAM or CPU is below the job's protection threshold. Lower it under *Render 
 
 ---
 
-## Changelog
-
-See [`CHANGELOG.md`](CHANGELOG.md) for the full version history.
-
-**v1.5** adds Create Read in Nuke, EXR preview, optional simultaneous renders, a flatter right-click menu, real Nuke RAM monitoring, stronger job locking and relaxed resource protection.
-
 ---
-
-## License
-
-<!-- Choose a license, e.g. MIT, and add a LICENSE file. -->
-No license has been chosen yet.
 
 ## Author
 
-Pedro Gartner Velasco
+Pedro Gartner
