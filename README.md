@@ -217,8 +217,6 @@ Free RAM or CPU is below the job's protection threshold. Lower it under *Render 
 
 ---
 
----
-
 ## Author
 
 Pedro Gartner
