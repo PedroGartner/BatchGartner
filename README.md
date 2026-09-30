@@ -85,7 +85,8 @@ Developed and tested mainly on **Windows**. macOS and Linux are supported by the
 1. **Download or clone** this repository and keep the folder somewhere permanent.
 
    ```bash
-   git clone https://github.com/PedroGartner/batch-gartner.git
+   git clone https://github.com/PedroGartner/BatchGartner.git
+   cd BatchGartner/BatchGartner
    ```
 
 2. **Install the Python packages** with the Python you will use to run Batch Gartner:
@@ -176,10 +177,10 @@ All network traffic is local only (`127.0.0.1`).
 | `install_batch_gartner_integration.py` | Installer for the Nuke menu |
 | `menu_snippet.py` | Manual alternative to the installer |
 | `CHANGELOG.md` | Version history |
-| `~/.nuke_batch_render_config.json` | Settings and queue |
-| `~/.nuke_batch_render_logs/` | Render logs per script, plus `batch_gartner_errors.log` |
-| `~/.nuke_batch_render_snapshots/` | Script snapshots |
-| `~/.batch_gartner_recovery.json` | Crash-recovery snapshot |
+| `~/.batch_gartner/settings.json` | Settings and queue |
+| `~/.batch_gartner/logs/` | Render logs per script, plus `batch_gartner_errors.log` |
+| `~/.batch_gartner/snapshots/` | Script snapshots |
+| `~/.batch_gartner/recovery.json` | Crash-recovery snapshot |
 
 On Windows `~` is `C:\Users\<you>`. Paste `%USERPROFILE%` into Explorer to get there.
 
@@ -188,7 +189,7 @@ On Windows `~` is `C:\Users\<you>`. Paste `%USERPROFILE%` into Explorer to get t
 ## Troubleshooting
 
 **Batch Gartner doesn't open.**
-Run `python BatchGartner.py` from a terminal to see the error, or check `~/.nuke_batch_render_logs/batch_gartner_errors.log`. If it's already running (possibly hidden), starting it again brings the existing window to the front. Otherwise, end the leftover `python.exe` in Task Manager.
+Run `python BatchGartner.py` from a terminal to see the error, or check `~/.batch_gartner/logs/batch_gartner_errors.log`. If it's already running (possibly hidden), starting it again brings the existing window to the front. Otherwise, end the leftover `python.exe` in Task Manager.
 
 **"Could not find an external Python installation with PySide6" (from Nuke).**
 Install PySide6 into a normal Python (`python -m pip install PySide6`), or set the environment variable `BATCH_GARTNER_PYTHON` to that `python.exe`.
